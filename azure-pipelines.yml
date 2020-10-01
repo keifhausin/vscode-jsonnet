@@ -10,6 +10,11 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+
+- task: CmdLine@2
+  inputs:
+    script: 'npm install -g vsce'
+
 - script: vsce info
   displayName: 'test vsce'
 
