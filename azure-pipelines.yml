@@ -11,5 +11,5 @@ pool:
 
 steps:
 - script: vcse info
-  displayName: 'test vcse'
+  displayName: 'test vsce'
 
