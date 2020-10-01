@@ -10,6 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: vcse info
+- script: vsce info
   displayName: 'test vsce'
 
