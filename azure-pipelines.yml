@@ -13,8 +13,7 @@ steps:
 
 - task: CmdLine@2
   inputs:
-    script: 'npm install vsce'
-
-- script: vsce info
-  displayName: 'test vsce'
+    script: | 
+      npm install vsce
+      vsce info
 
